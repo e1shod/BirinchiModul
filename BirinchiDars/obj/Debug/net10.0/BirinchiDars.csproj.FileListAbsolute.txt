@@ -1,0 +1,14 @@
+D:\Coding\DotNet\ModulBir\Project\BirinchiDars\BirinchiDars\bin\Debug\net10.0\BirinchiDars.exe
+D:\Coding\DotNet\ModulBir\Project\BirinchiDars\BirinchiDars\bin\Debug\net10.0\BirinchiDars.deps.json
+D:\Coding\DotNet\ModulBir\Project\BirinchiDars\BirinchiDars\bin\Debug\net10.0\BirinchiDars.runtimeconfig.json
+D:\Coding\DotNet\ModulBir\Project\BirinchiDars\BirinchiDars\bin\Debug\net10.0\BirinchiDars.dll
+D:\Coding\DotNet\ModulBir\Project\BirinchiDars\BirinchiDars\bin\Debug\net10.0\BirinchiDars.pdb
+D:\Coding\DotNet\ModulBir\Project\BirinchiDars\BirinchiDars\obj\Debug\net10.0\BirinchiDars.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\DotNet\ModulBir\Project\BirinchiDars\BirinchiDars\obj\Debug\net10.0\BirinchiDars.AssemblyInfoInputs.cache
+D:\Coding\DotNet\ModulBir\Project\BirinchiDars\BirinchiDars\obj\Debug\net10.0\BirinchiDars.AssemblyInfo.cs
+D:\Coding\DotNet\ModulBir\Project\BirinchiDars\BirinchiDars\obj\Debug\net10.0\BirinchiDars.csproj.CoreCompileInputs.cache
+D:\Coding\DotNet\ModulBir\Project\BirinchiDars\BirinchiDars\obj\Debug\net10.0\BirinchiDars.dll
+D:\Coding\DotNet\ModulBir\Project\BirinchiDars\BirinchiDars\obj\Debug\net10.0\refint\BirinchiDars.dll
+D:\Coding\DotNet\ModulBir\Project\BirinchiDars\BirinchiDars\obj\Debug\net10.0\BirinchiDars.pdb
+D:\Coding\DotNet\ModulBir\Project\BirinchiDars\BirinchiDars\obj\Debug\net10.0\BirinchiDars.genruntimeconfig.cache
+D:\Coding\DotNet\ModulBir\Project\BirinchiDars\BirinchiDars\obj\Debug\net10.0\ref\BirinchiDars.dll

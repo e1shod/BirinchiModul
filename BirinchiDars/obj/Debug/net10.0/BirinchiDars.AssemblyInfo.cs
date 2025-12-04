@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BirinchiDars")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73128da2dc5c83dbee0d728323e2e645032a4cdf")]
 [assembly: System.Reflection.AssemblyProductAttribute("BirinchiDars")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BirinchiDars")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -587,7 +587,7 @@ namespace BirinchiDars
             //86-misol
             //int son = 40;
             //int n = son >> 4;
-            //Console.WriteLine(n);
+            //Console.WriteLine(n);k
 
 
             //87-misol
@@ -599,12 +599,46 @@ namespace BirinchiDars
 
 
             //88-misol
-           
+
             //int a = int.Parse(Console.ReadLine());
             //int a2 = a * a;
             //int a3 = a2 * a;
             //int a6 = a3 * a3;
             //Console.WriteLine(a6);
+
+
+            //89-misol
+
+            //int a = int.Parse(Console.ReadLine());
+            //int a2 = a * a;
+            //int a4 = a2 * a2;
+            //int a8 = a4 * a4;
+            //Console.WriteLine(a8);
+
+            //90-misol
+            //int k = 
+            //int.Parse(Console.ReadLine());
+            //int s = 
+            //int.Parse(Console.ReadLine());
+            //int s1 = k * 24 + s;
+            //Console.WriteLine(s1);
+
+            Console.WriteLine(3+2);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

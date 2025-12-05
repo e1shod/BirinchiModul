@@ -163,13 +163,394 @@
 
             //double result = (b / y) - (a / x);
             //Console.WriteLine(result);
-        
+
+            //107-misol
+
+            //int n = 24;
+
+            //if (n % 2 == 0)
+            //{
+            //    Console.WriteLine("Rost");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Yolg'on");
+
+            //}
+
+            //108-misol
+
+            //int n = int.Parse(Console.ReadLine());
+
+            //if (n % 2 == 1)
+            //{
+            //    Console.WriteLine("Rost");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Yolg'on");
+            //}
+
+            //109-misol
+
+            //int n = int.Parse(Console.ReadLine());
+
+            //if (n >= 10 && n <= 99)
+            //{
+            //    Console.WriteLine("Rost");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Yolg'on");
+            //}
+
+            //110-misol
+
+            //int n = int.Parse(Console.ReadLine());
+
+            //if (n >= 1000 && n <= 9999)
+            //{
+            //    Console.WriteLine("Rost");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Yolg'on");
+            //}
+
+            //111-misol
+            //int n = int.Parse(Console.ReadLine());
+
+            //if (n >= 10 && n <= 99 && n % 2 == 0)
+            //{
+            //    Console.WriteLine("Rost");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Yolg'on");
+            //}
+
+            //112-misol
+            //int n = int.Parse(Console.ReadLine());
+
+            //if (n >= 100 && n <= 999 && n % 2 == 1)
+            //{
+            //    Console.WriteLine("Rost");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Yolg'on");
+            //}
+
+            //113-misol
+            //int n = int.Parse(Console.ReadLine());
+
+            //if (n >= 10 && n <= 99 && n % 2 == 0)
+            //{
+            //    Console.WriteLine("Rost");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Yolg'on");
+            //}
+
+            //114-misol
+            //int n = int.Parse(Console.ReadLine());
+
+            //if (n >= 100 && n <= 999 && n % 2 == 1)
+            //{
+            //    Console.WriteLine("Rost");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Yolg'on");
+            //}
+
+            //115-misol
+            //int n = int.Parse(Console.ReadLine());
+            //if (n >= 10 && n <= 99)
+            //{
+            //    int onlar = n / 10;
+            //    int birlar = n % 10;
+            //    if (onlar == birlar)
+            //        Console.WriteLine("Rost");
+            //    else
+            //        Console.WriteLine("Yolg'on");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Noto'g'ri son (2 xonali emas)");
+            //}
+
+            //116-misol
+            //int n = int.Parse(Console.ReadLine());
+
+            //int onlar = n / 10;
+            //int birlar = n % 10;
+
+            //if (n >= 10 && n <= 99 && (onlar + birlar) > 10)
+            //    Console.WriteLine("Rost");
+            //else
+            //    Console.WriteLine("Yolg'on");
+
+
+            //117-misol
+            //int n = int.Parse(Console.ReadLine());
+
+            //int onlar = n / 10;
+            //int birlar = n % 10;
+
+            //if (n >= 10 && n <= 99 && (onlar * birlar) > 20)
+            //    Console.WriteLine("Rost");
+            //else
+            //    Console.WriteLine("Yolg'on");
+
+
+            //118-misol
+
+            //int n = int.Parse(Console.ReadLine());
+
+            //int onlar = n / 10;
+            //int birlar = n % 10;
+
+            //if (n >= 10 && n <= 99 && onlar % 2 == 1 && birlar % 2 == 1)
+            //    Console.WriteLine("Rost");
+            //else
+            //    Console.WriteLine("Yolg'on");
+
+            //119-misol
+
+            //int n = int.Parse(Console.ReadLine());
+
+            //int onlar = n / 10;
+            //int birlar = n % 10;
+
+            //if (n >= 10 && n <= 99 && onlar > 5 && birlar > 5)
+            //    Console.WriteLine("Rost");
+            //else
+            //    Console.WriteLine("Yolg'on");
+
+            //120-misol
+
+            //int a = int.Parse(Console.ReadLine());
+
+            //if (a % 3 == 0)
+            //    Console.WriteLine("Rost");
+            //else
+            //    Console.WriteLine("Yolg'on");
+
+            //121-msiol
+
+            //int a = int.Parse(Console.ReadLine());
+
+            //if (a % 7 == 0)
+            //    Console.WriteLine("Rost");
+            //else
+            //    Console.WriteLine("Yolg'on");
+
+
+            //122-misol
+
+            //int a = int.Parse(Console.ReadLine());
+
+            //if (a % 3 == 0 && a % 8 == 0)
+            //    Console.WriteLine("Rost");
+            //else
+            //    Console.WriteLine("Yolg'on");
+
+
+            //123-misol
+
+            //int a = int.Parse(Console.ReadLine());
+
+            //if (a % 3 == 0 && a % 8 == 0)
+            //    Console.WriteLine("Rost");
+            //else
+            //    Console.WriteLine("Yolg'on");
+
+            //124-misol
+
+            //int a = int.Parse(Console.ReadLine());
+
+            //if (a % 7 == 0 || a % 9 == 0)
+            //    Console.WriteLine("Rost");
+            //else
+            //    Console.WriteLine("Yolg'on");
+
+            //125-misol
+
+            //int a = int.Parse(Console.ReadLine());
+
+            //if (a % 5 != 0)
+            //    Console.WriteLine("Rost");
+            //else
+            //    Console.WriteLine("Yolg'on");
+
+            //126-misol
+
+            //int a = int.Parse(Console.ReadLine());
+
+            //if (a % 4 == 0 && a % 3 != 0)
+            //    Console.WriteLine("Rost");
+            //else
+            //    Console.WriteLine("Yolg'on");
+
+
+            //127-misol
+
+            //int a = int.Parse(Console.ReadLine());
+            //int b = int.Parse(Console.ReadLine());
+
+            //if (a > b)
+            //    Console.WriteLine("Rost");
+            //else
+            //    Console.WriteLine("Yolg'on");
+
+            //128-misol
+
+            //int a = int.Parse(Console.ReadLine());
+            //int b = int.Parse(Console.ReadLine());
+
+            //if (a == b)
+            //    Console.WriteLine("Rost");
+            //else
+            //    Console.WriteLine("Yolg'on");
+
+            //129-misol
+            //int a = int.Parse(Console.ReadLine());
+            //int b = int.Parse(Console.ReadLine());
+            //int c = int.Parse(Console.ReadLine());
+
+            //if (a > b && a > c)
+            //    Console.WriteLine("Rost");
+            //else
+            //    Console.WriteLine("Yolg'on");
+
+            //130-misol
+            //int a = int.Parse(Console.ReadLine());
+            //int b = int.Parse(Console.ReadLine());
+            //int c = int.Parse(Console.ReadLine());
+
+            //if (a > b && a > c)
+            //    Console.WriteLine("Rost");
+            //else
+            //    Console.WriteLine("Yolg'on");
+
+
+            //131-misol
+
+            //int a = int.Parse(Console.ReadLine());
+            //int b = int.Parse(Console.ReadLine());
+            //int c = int.Parse(Console.ReadLine());
+
+
+            //if (c > a && c > b)
+            //    Console.WriteLine("Rost");
+            //else
+            //    Console.WriteLine("Yolg'on");
+
+
+            //132-misol
+            //int a = int.Parse(Console.ReadLine());
+            //int b = int.Parse(Console.ReadLine());
+            //int c = int.Parse(Console.ReadLine());
 
 
 
+            //if (c > a && c > b)
+            //    Console.WriteLine("Rost");
+            //else
+            //    Console.WriteLine("Yolg'on");
+
+
+            //133-misol
+
+            //int a = int.Parse(Console.ReadLine());
+            //int b = int.Parse(Console.ReadLine());
+            //int c = int.Parse(Console.ReadLine());
+
+
+            //if (b < a && b < c)
+            //    Console.WriteLine("Rost");
+            //else
+            //    Console.WriteLine("Yolg'on");
+
+
+            //134-misol
+
+            //int a = int.Parse(Console.ReadLine());
+            //int b = int.Parse(Console.ReadLine());
+            //int c = int.Parse(Console.ReadLine());
+
+            //if (a == 2 * b)
+            //    Console.WriteLine("Rost");
+            //else
+            //    Console.WriteLine("Yolg'on");
 
 
 
-}
-}
+            //135-misol
+
+            //int a = int.Parse(Console.ReadLine());
+            //int b = int.Parse(Console.ReadLine());
+            //int c = int.Parse(Console.ReadLine());
+
+            //if (b == 5 * a)
+            //    Console.WriteLine("Rost");
+            //else
+            //    Console.WriteLine("Yolg'on");
+
+            //136-misol
+
+            //int a = int.Parse(Console.ReadLine());
+            //int b = int.Parse(Console.ReadLine());
+            //int c = int.Parse(Console.ReadLine());
+
+            //if (a == 4 * b || b == 4 * a)
+            //    Console.WriteLine("Rost");
+            //else
+            //    Console.WriteLine("Yolg'on");
+
+
+            //137-misol
+
+            //int a = int.Parse(Console.ReadLine());
+            //int b = int.Parse(Console.ReadLine());
+            //int c = int.Parse(Console.ReadLine());
+
+
+
+            //if (a == b + 30)
+            //    Console.WriteLine("Rost");
+            //else
+            //    Console.WriteLine("Yolg'on");
+
+
+            //138-misol
+
+            //int a = int.Parse(Console.ReadLine());
+            //int b = int.Parse(Console.ReadLine());
+            //int c = int.Parse(Console.ReadLine());
+            //int d = int.Parse(Console.ReadLine());
+
+            //if (b > a && b > c && b > d && b % 2 == 0)
+            //    Console.WriteLine("Rost");
+            //else
+            //    Console.WriteLine("Yolg'on");
+
+            //139-misol
+
+            //int a = int.Parse(Console.ReadLine());
+            //int b = int.Parse(Console.ReadLine());
+            //int c = int.Parse(Console.ReadLine());
+            //int d = int.Parse(Console.ReadLine());
+
+            //if (c < a && c < b && c < d && c % 2 == 0)
+            //    Console.WriteLine("Rost");
+            //else
+            //    Console.WriteLine("Yolg'on");
+
+
+
+        }
+    }
 }

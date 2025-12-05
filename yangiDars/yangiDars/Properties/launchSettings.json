@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "yangiDars": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

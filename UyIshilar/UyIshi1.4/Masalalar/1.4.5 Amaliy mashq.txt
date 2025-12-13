@@ -1,0 +1,278 @@
+
+
+
+1.	helloName
+Name nomli satr berilgan, masalan “Aziz”, ushbu korinishda natijani qaytaring(return qiling): “Hello Aziz!”.
+
+helloName("Bob") → "Hello Bob!"
+helloName("Alice") → "Hello Alice!"
+helloName("X") → "Hello X!"
+
+
+2.	makeOutWord
+2ta a va b satr berilgan. a satr uzunligi 4ga tengligi malum. a satrni 2 va 3-harflari o’rtasiga b satrni joylashtirib natijani qaytaring.
+
+makeOutWord("<<>>", "Yay") → "<<Yay>>"
+makeOutWord("<<>>", "WooHoo") → "<<WooHoo>>"
+makeOutWord("[[]]", "word") → "[[word]]"
+
+
+3.	firstTwo
+Satr berilgan. Ushbu satrni birinchi 2ta harfini returnga qaytaring. Agar satr uzunligi 2dan kichik bolsa, osha satrni ozini qaytaring.
+
+firstTwo("Hello") → "He"
+firstTwo("abcdefg") → "ab"
+firstTwo("ab") → "ab"
+
+
+4.	nonStart
+Uzunligi kamida 1ga teng bo’lgan 2ta satr berilgan. Ushbu satrlarni 1-harflarini hisobga olmasdan, satrlarni qo’shib natijani qaytaring.
+
+nonStart("Hello", "There") → "ellohere"
+nonStart("java", "code") → "avaode"
+nonStart("shotl", "java") → "hotlava"
+
+
+5.	theEnd
+Satr va Boolean tipidagi front nomli o’zgaruvchi berilgan. Agar front – true bo’lsa, satrni birinchi harfini, front – false bo’lsa, satrni oxirgi harfini qaytaring.
+
+theEnd("Hello", true) → "H"
+theEnd("Hello", false) → "o"
+theEnd("oh", true) → "o"
+
+
+6.	conCat
+2ta a va b satrlar berilgan. a satr davomidan b satrni qoyib natijani qaytaring. Agar a satrni oxirgi belgisi b satrni 1-belgisi bilan bir xil bolsa, bu belgilarni 1tasini hisobga oling.
+
+conCat("abc", "cat") → "abcat"
+conCat("dog", "cat") → "dogcat"
+conCat("abc", "") → "abc"
+
+
+7. 1 ta string berilgan. Shu stringdagi raqamlarni o'chirib qaytaruvchi funksiya tuzing.
+
+
+8. 1 ta string berilgan. Shu stringdagi '@' belgilarini o'chirib qaytaruvchi funksiya tuzing.
+
+/// 8 masala
+#include <iostream>
+using namespace std;
+
+string withoutDigit( string s ) /// 48salom
+{
+    for( int i = 0 ; i < s.length(); i++ )
+    {
+        if( s[i] == '@' )
+        {
+            s.erase(i,1);
+            --i;
+        }
+    }
+    return s;
+}
+
+int main() {
+
+    string a;
+    cout << "a :";
+    getline( cin , a );
+
+    string res = withoutDigit(a);
+    cout << "Result = " << res << endl;
+
+    return 0;
+}
+
+
+/// 7 masala
+#include <iostream>
+using namespace std;
+
+string withoutDigit( string s ) /// 48salom
+{
+    for( int i = 0 ; i < s.length(); i++ )
+    {
+        if(isdigit(s[i]) )
+        {
+            s.erase(i,1);
+            --i;
+        }
+    }
+    return s;
+}
+
+int main() {
+
+    string a;
+    cout << "a :";
+    getline( cin , a );
+
+    string res = withoutDigit(a);
+    cout << "Result = " << res << endl;
+
+    return 0;
+}
+
+
+/// 6 masala
+#include <iostream>
+using namespace std;
+
+string conCat( string a, string b )
+{   /// lola lobar
+    if( a[ a.length() - 1 ] == b[0] )
+    {
+        b.erase(0,1);
+    }
+    return a+b;
+}
+
+int main() {
+
+    string a,b;
+    cout << "a :";
+    getline( cin , a );
+    cout << "b :";
+    getline( cin , b );
+
+    string res = conCat(a,b);
+    cout << "Result = " << res << endl;
+
+    return 0;
+}
+
+
+/// 5 masala
+#include <iostream>
+using namespace std;
+
+string theEnd( string s, bool b )
+{
+    if( b )
+        return s.substr(0,1);
+
+    return s.substr( s.length() - 1 );
+}
+
+int main() {
+
+    string s;
+    cout << "s :";
+    getline( cin , s );
+
+    bool b = false;
+
+    string res = theEnd( s , b );
+    cout << "Natija = " << res << endl;
+
+    return 0;
+}
+
+
+/// 4 masala
+#include <iostream>
+using namespace std;
+
+string nonStart( string a, string b )
+{
+    a.erase(0,1);
+    b.erase(0,1);
+    return a+b;
+}
+
+int main() {
+
+    string a,b;
+    cout << "a :";
+    getline( cin , a );
+    cout << "b :";
+    getline( cin , b );
+
+    string res = nonStart(a,b);
+    cout << "Result = " << res << endl;
+
+    return 0;
+}
+
+
+
+/// 3 masala
+#include <iostream>
+using namespace std;
+
+string firstTwo( string s )
+{
+    return s.substr(0,2);
+}
+
+int main() {
+
+    string a;
+    cout << "a :";
+    getline( cin , a );
+
+    string res = firstTwo(a);
+    cout << "Result = " << res << endl;
+
+    return 0;
+}
+
+
+/// 2 masala
+#include <iostream>
+using namespace std;
+
+string makeOutWord( string a, string b )
+{
+    string s1,s2;
+    s1 = a.substr( 0,2 );
+    s2 = a.substr( 2,2 );
+    string text = s1 + b + s2;
+    return text;
+}
+
+int main() {
+
+    string a,b;
+    cout << "a :";
+    getline( cin , a );
+    cout << "b :";
+    getline( cin , b );
+
+    string res = makeOutWord(a,b);
+    cout << "Result = " << res << endl;
+    
+    return 0;
+}
+
+
+
+
+/// 1 masala
+#include <iostream>
+using namespace std;
+
+string helloName( string name ) /// Aziz
+{
+    string text = "Hello ";
+    text.append(name);
+    text.append("!");
+    return text;
+}
+
+int main() {
+
+    string s;
+    cout << "Ismi kiriting :";
+    cin >> s;
+
+    string res = helloName(s);
+    cout << "Natija : " << res << endl;
+
+    return 0;
+}
+
+
+
+
+

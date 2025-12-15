@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "UyIshi1.5": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}

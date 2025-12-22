@@ -1,0 +1,92 @@
+namespace UyIshi1._11
+{
+    internal class Program
+    {
+        static List<Product> products = new List<Product>();
+
+        static void Main(string[] args)
+        {
+            Product product1 = new Product()
+            {
+                Id = Guid.NewGuid(),
+                Name = "Laptop",
+                Category = "Elecrtony",
+                Price = 450,
+                Quantity = 10,
+            };
+            Product product2 = new Product()
+            {
+                Id = Guid.NewGuid(),
+                Name = "Iphone",
+                Category = "Electrony",
+                Price = 900,
+                Quantity = 26
+            };
+
+            AddProduct(product1);
+            AddProduct(product2);
+
+            DisplayProduct();
+            Console.WriteLine("1 step");
+
+            var newProduct = new Product()
+            {
+                Name = "Samsung",
+                Category = "Electrony",
+                Price = 790,
+                Quantity = 34
+            };
+
+            UpdateProduct(product2.Id, newProduct);
+
+            DisplayProduct();
+            Console.WriteLine("2 step");
+
+            RemoveProduct(product1.Id);
+            DisplayProduct();
+        }
+
+        static void AddProduct(Product product)
+        {
+            products.Add(product);
+        }
+
+        static void RemoveProduct(Guid Id)
+        {
+            foreach (var product in products)
+            {
+                if (product.Id == Id)
+                {
+                    products.Remove(product);
+                    break;
+                }
+            }
+        }
+
+        static void UpdateProduct(Guid Id, Product newProduct)
+        {
+            for (int i = 0; i < products.Count; i++)
+            {
+                if (products[i].Id == Id)
+                {
+                    newProduct.Id = Id;
+                    products[i] = newProduct;
+                    break;
+                }
+            }
+        }
+
+        static void DisplayProduct()
+        {
+            foreach (var product in products)
+            {
+                Console.WriteLine($"product ID: {product.Id}");
+                Console.WriteLine($"Nomi: {product.Name}");
+                Console.WriteLine($"Toifa: {product.Category}");
+                Console.WriteLine($"YNarxi: {product.Price}");
+                Console.WriteLine($"Miqdori: {product.Quantity}");
+                Console.WriteLine();
+            }
+        }
+    }
+}

@@ -1,0 +1,93 @@
+namespace UyIshi1._11
+{
+    internal class Program
+    {
+        static List<Employee> employees = new List<Employee>();
+
+        static void Main(string[] args)
+        {
+            Employee employee1 = new Employee()
+            {
+                Id = Guid.NewGuid(),
+                Name = "Jasur",
+                Position = "Qorovul",
+                Age = 23,
+                Salary = 300
+            };
+
+            Employee employee2 = new Employee()
+            {
+                Id = Guid.NewGuid(),
+                Name = "Elyor",
+                Position = "Seniyor",
+                Age = 32,
+                Salary = 5000
+            };
+
+            AddEmployee(employee1);
+            AddEmployee(employee2);
+
+            DisplayEmployees();
+            Console.WriteLine("1 step");
+
+            var newEmployee = new Employee()
+            {
+                Name = "Farxod",
+                Position = "Midle",
+                Age = 2021,
+                Salary = 3000
+            };
+
+            UpdateEmployee(employee1.Id, newEmployee);
+
+            DisplayEmployees();
+            Console.WriteLine("2 step");
+
+            RemoveEmployee(employee1.Id);
+            DisplayEmployees();
+        }
+
+        static void AddEmployee(Employee employee)
+        {
+            employees.Add(employee);
+        }
+
+        static void RemoveEmployee(Guid Id)
+        {
+            foreach (var employee in employees)
+            {
+                if (employee.Id == Id)
+                {
+                    employees.Remove(employee);
+                    break;
+                }
+            }
+        }
+
+        static void UpdateEmployee(Guid Id, Employee newEmployee)
+        {
+            for (int i = 0; i < employees.Count; i++)
+            {
+                if (employees[i].Id == Id)
+                {
+                    newEmployee.Id = Id;
+                    employees[i] = newEmployee;
+                    break;
+                }
+            }
+        }
+
+        static void DisplayEmployees()
+        {
+            foreach (var employee in employees)
+            {
+                Console.WriteLine($"employee ID: {employee.Id}");
+                Console.WriteLine($"Ismi: {employee.Name}");
+                Console.WriteLine($"Vazifasi: {employee.Position}");
+                Console.WriteLine($"Yoshi: {employee.Age}");
+                Console.WriteLine($"Oylik: {employee.Salary}");
+                Console.WriteLine();
+            }
+        }
+    }
+}

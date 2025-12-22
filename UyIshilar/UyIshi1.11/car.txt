@@ -1,0 +1,93 @@
+namespace UyIshi1._11
+{
+    internal class Program
+    {
+        static List<Car> cars = new List<Car>();
+
+        static void Main(string[] args)
+        {
+            Car car1 = new Car()
+            {
+                CarId = Guid.NewGuid(),
+                Name = "Cobalt",
+                Color = "White",
+                Year = 2022,
+                Fuel = "Gasoline"
+            };
+
+            Car car2 = new Car()
+            {
+                CarId = Guid.NewGuid(),
+                Name = "Malibu",
+                Color = "Black",
+                Year = 2023,
+                Fuel = "Gasoline"
+            };
+
+            AddCar(car1);
+            AddCar(car2);
+
+            DisplayCars();
+            Console.WriteLine("1 step");
+
+            var newCar = new Car()
+            {
+                Name = "BMW",
+                Color = "Blue",
+                Year = 2021,
+                Fuel = "Diesel"
+            };
+
+            UpdateCar(car1.CarId, newCar);
+
+            DisplayCars();
+            Console.WriteLine("2 step");
+
+            RemoveCar(car1.CarId);
+            DisplayCars();
+        }
+
+        static void AddCar(Car car)
+        {
+            cars.Add(car);
+        }
+
+        static void RemoveCar(Guid carId)
+        {
+            foreach (var car in cars)
+            {
+                if (car.CarId == carId)
+                {
+                    cars.Remove(car);
+                    break;
+                }
+            }
+        }
+
+        static void UpdateCar(Guid carId, Car newCar)
+        {
+            for (int i = 0; i < cars.Count; i++)
+            {
+                if (cars[i].CarId == carId)
+                {
+                    newCar.CarId = carId;
+                    cars[i] = newCar;
+                    break;
+                }
+            }
+        }
+
+        static void DisplayCars()
+        {
+            foreach (var car in cars)
+            {
+                Console.WriteLine($"Car ID: {car.CarId}");
+                Console.WriteLine($"Name: {car.Name}");
+                Console.WriteLine($"Color: {car.Color}");
+                Console.WriteLine($"Year: {car.Year}");
+                Console.WriteLine($"Fuel: {car.Fuel}");
+                Console.WriteLine();
+            }
+        }
+    }
+}

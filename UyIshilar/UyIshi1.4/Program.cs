@@ -52,14 +52,14 @@
 
             //4-mavzu
 
-            //static int ToqSonlarSoni(int a, int b)
-            //{
-            //    int count = 0;
-            //    for (int i = a + 1; i < b; i++)
-            //        if (i % 2 != 0) count++;
-            //    return count;
-            //}
-            //Console.WriteLine(ToqSonlar(3, 15));
+            static int ToqSonlarSoni(int a, int b)
+            {
+                int count = 0;
+                for (int i = a + 1; i < b; i++)
+                    if (i % 2 != 0) count++;
+                return count;
+            }
+            Console.WriteLine(ToqSonlar(3, 15));
             //5-mavzu 
 
             //static int XonaSoni(int n)

@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\backend\\coding\\DotNet\\BirinchiModul\\Exem1Modul\\ConsoleApp1\\",
+  "WorkspaceRootPath": "D:\\FIle\\ISH\\backend\\coding\\DotNet\\BirinchiModul\\Exem1Modul\\ConsoleApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B5B0BC2-7E08-E58C-6436-F53A2B87BA1D}|ConsoleApp1.csproj|d:\\backend\\coding\\dotnet\\birinchimodul\\exem1modul\\consoleapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B5B0BC2-7E08-E58C-6436-F53A2B87BA1D}|ConsoleApp1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\FIle\\ISH\\backend\\coding\\DotNet\\BirinchiModul\\Exem1Modul\\ConsoleApp1\\PhoneService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PhoneService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B5B0BC2-7E08-E58C-6436-F53A2B87BA1D}|ConsoleApp1.csproj|d:\\backend\\coding\\dotnet\\birinchimodul\\exem1modul\\consoleapp1\\phone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B5B0BC2-7E08-E58C-6436-F53A2B87BA1D}|ConsoleApp1.csproj|solutionrelative:phone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\FIle\\ISH\\backend\\coding\\DotNet\\BirinchiModul\\Exem1Modul\\ConsoleApp1\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\FIle\\ISH\\backend\\coding\\DotNet\\BirinchiModul\\Exem1Modul\\ConsoleApp1\\Phone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Phone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,28 +30,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Phone.cs",
-              "DocumentMoniker": "D:\\backend\\coding\\DotNet\\BirinchiModul\\Exem1Modul\\ConsoleApp1\\Phone.cs",
-              "RelativeDocumentMoniker": "Phone.cs",
-              "ToolTip": "D:\\backend\\coding\\DotNet\\BirinchiModul\\Exem1Modul\\ConsoleApp1\\Phone.cs",
-              "RelativeToolTip": "Phone.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "PhoneService.cs",
+              "DocumentMoniker": "D:\\FIle\\ISH\\backend\\coding\\DotNet\\BirinchiModul\\Exem1Modul\\ConsoleApp1\\PhoneService.cs",
+              "RelativeDocumentMoniker": "PhoneService.cs",
+              "ToolTip": "D:\\FIle\\ISH\\backend\\coding\\DotNet\\BirinchiModul\\Exem1Modul\\ConsoleApp1\\PhoneService.cs",
+              "RelativeToolTip": "PhoneService.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T10:07:02.528Z",
+              "WhenOpened": "2026-01-29T11:26:38.08Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\backend\\coding\\DotNet\\BirinchiModul\\Exem1Modul\\ConsoleApp1\\Program.cs",
+              "DocumentMoniker": "D:\\FIle\\ISH\\backend\\coding\\DotNet\\BirinchiModul\\Exem1Modul\\ConsoleApp1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\backend\\coding\\DotNet\\BirinchiModul\\Exem1Modul\\ConsoleApp1\\Program.cs",
+              "ToolTip": "D:\\FIle\\ISH\\backend\\coding\\DotNet\\BirinchiModul\\Exem1Modul\\ConsoleApp1\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAD0AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-14T09:58:29.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Phone.cs",
+              "DocumentMoniker": "D:\\FIle\\ISH\\backend\\coding\\DotNet\\BirinchiModul\\Exem1Modul\\ConsoleApp1\\Phone.cs",
+              "RelativeDocumentMoniker": "Phone.cs",
+              "ToolTip": "D:\\FIle\\ISH\\backend\\coding\\DotNet\\BirinchiModul\\Exem1Modul\\ConsoleApp1\\Phone.cs",
+              "RelativeToolTip": "Phone.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T10:07:02.528Z",
               "EditorCaption": ""
             }
           ]
